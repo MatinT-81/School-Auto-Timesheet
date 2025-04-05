@@ -1,7 +1,7 @@
 import random
 
 def generate_random_times():
-    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    days = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday"]
     times = []
     total_minutes = 300  # 5 ساعت = 300 دقیقه
     start_hour = 8  # شروع ساعت کاری
