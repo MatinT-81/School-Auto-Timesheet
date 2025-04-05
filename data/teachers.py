@@ -1,6 +1,7 @@
 import random
 
 def generate_random_times():
+    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
     times = []
     total_minutes = 300  # 5 ساعت = 300 دقیقه
     start_hour = 8  # شروع ساعت کاری
@@ -17,7 +18,8 @@ def generate_random_times():
             end_minute -= 60
         if end_hour > 17:  # اطمینان از اینکه زمان پایان از ساعت 17 تجاوز نکند
             break
-        times.append(f"{hour:02}:{minute:02}-{end_hour:02}:{end_minute:02}")
+        day = random.choice(days)  # انتخاب تصادفی یک روز
+        times.append(f"{day} {hour:02}:{minute:02}-{end_hour:02}:{end_minute:02}")
         total_minutes -= duration
     return times
 
