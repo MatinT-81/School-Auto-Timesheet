@@ -20,8 +20,7 @@ for grade, subjects in grades.items():
                     # Check if this time slot is not already reserved
                     if time_slot not in reserved_times[teacher]:
                         # Extract day and hour
-                        day = "Monday"  # یا هر روز پیش‌فرض یا داده‌ای که باید اضافه شود
-                        hour = time_slot  # فرض می‌کنیم time_slot فقط شامل بازه زمانی است
+                        day, hour = time_slot.split()
                         # Check if that hour for that day is not already occupied
                         if hour not in schedule[day]:
                             schedule[day][hour] = {
