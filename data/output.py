@@ -1,117 +1,372 @@
 schedule = {
-    "Sunday": {
-        "13:30-14:30": {
-            "grade": "8",
-            "subject": "Math",
-            "teacher": "Mr. A"
+    "Wednesday": {
+        "7": {
+            "lessons": {
+                "Math": {
+                    "time": "13:30-14:30",
+                    "teacher": "Mr. A"
+                },
+                "Art": {
+                    "time": "11:30-13:00",
+                    "teacher": "Ms. F"
+                }
+            }
         },
-        "08:00-09:00": {
-            "grade": "8",
-            "subject": "History",
-            "teacher": "Ms. D"
+        "8": {
+            "lessons": {
+                "Math": {
+                    "time": "13:00-14:30",
+                    "teacher": "Mr. A"
+                },
+                "History": {
+                    "time": "14:00-15:00",
+                    "teacher": "Ms. H"
+                }
+            }
         },
-        "10:00-11:30": {
-            "grade": "10",
-            "subject": "Physics",
-            "teacher": "Mr. E"
-        }
-    },
-    "Tuesday": {
-        "15:00-16:00": {
-            "grade": "8",
-            "subject": "Math",
-            "teacher": "Mr. C"
+        "9": {
+            "lessons": {
+                "Physics": {
+                    "time": "11:30-13:00",
+                    "teacher": "Mr. E"
+                },
+                "Literature": {
+                    "time": "10:30-11:30",
+                    "teacher": "Ms. L"
+                },
+                "History": {
+                    "time": "13:30-14:30",
+                    "teacher": "Ms. H"
+                }
+            }
         },
-        "14:30-15:30": {
-            "grade": "8",
-            "subject": "Science",
-            "teacher": "Ms. B"
+        "10": {
+            "lessons": {
+                "Math": {
+                    "time": "11:00-11:30",
+                    "teacher": "Mr. C"
+                },
+                "Computer Science": {
+                    "time": "08:30-09:30",
+                    "teacher": "Mr. I"
+                }
+            }
         },
-        "13:30-14:30": {
-            "grade": "9",
-            "subject": "Chemistry",
-            "teacher": "Ms. B"
+        "11": {
+            "lessons": {
+                "Chemistry": {
+                    "time": "16:00-17:00",
+                    "teacher": "Ms. J"
+                },
+                "Math": {
+                    "time": "08:30-09:30",
+                    "teacher": "Mr. K"
+                },
+                "Physics": {
+                    "time": "13:00-14:30",
+                    "teacher": "Mr. K"
+                },
+                "History": {
+                    "time": "09:00-10:30",
+                    "teacher": "Mr. M"
+                }
+            }
         },
-        "08:30-09:30": {
-            "grade": "10",
-            "subject": "Math",
-            "teacher": "Mr. C"
+        "12": {
+            "lessons": {
+                "Computer Science": {
+                    "time": "15:30-16:30",
+                    "teacher": "Mr. I"
+                },
+                "History": {
+                    "time": "11:30-12:30",
+                    "teacher": "Mr. M"
+                }
+            }
         }
     },
     "Saturday": {
-        "10:30-11:30": {
-            "grade": "8",
-            "subject": "English",
-            "teacher": "Ms. D"
+        "7": {
+            "lessons": {
+                "Math": {
+                    "time": "08:30-09:30",
+                    "teacher": "Mr. A"
+                },
+                "History": {
+                    "time": "09:30-11:00",
+                    "teacher": "Ms. D"
+                },
+                "English": {
+                    "time": "15:00-16:30",
+                    "teacher": "Ms. D"
+                }
+            }
         },
-        "11:30-13:00": {
-            "grade": "9",
-            "subject": "Physics",
-            "teacher": "Mr. E"
+        "8": {
+            "lessons": {
+                "Science": {
+                    "time": "15:00-16:30",
+                    "teacher": "Ms. B"
+                },
+                "Physical Education": {
+                    "time": "13:00-14:30",
+                    "teacher": "Ms. H"
+                },
+                "Geography": {
+                    "time": "12:30-14:00",
+                    "teacher": "Ms. F"
+                }
+            }
         },
-        "09:00-10:00": {
-            "grade": "10",
-            "subject": "Math",
-            "teacher": "Mr. A"
+        "9": {
+            "lessons": {
+                "Chemistry": {
+                    "time": "15:00-16:00",
+                    "teacher": "Ms. J"
+                },
+                "Biology": {
+                    "time": "12:30-13:30",
+                    "teacher": "Mr. C"
+                }
+            }
         },
-        "09:30-10:30": {
-            "grade": "10",
-            "subject": "Computer Science",
-            "teacher": "Mr. E"
+        "10": {
+            "lessons": {
+                "Art": {
+                    "time": "09:00-10:30",
+                    "teacher": "Ms. N"
+                }
+            }
         },
-        "15:00-16:30": {
-            "grade": "10",
-            "subject": "History",
-            "teacher": "Ms. D"
+        "11": {
+            "lessons": {
+                "Chemistry": {
+                    "time": "15:00-16:30",
+                    "teacher": "Ms. J"
+                },
+                "Math": {
+                    "time": "08:00-09:00",
+                    "teacher": "Mr. K"
+                },
+                "History": {
+                    "time": "08:00-09:30",
+                    "teacher": "Mr. M"
+                }
+            }
         },
-        "08:00-09:00": {
-            "grade": "11",
-            "subject": "Chemistry",
-            "teacher": "Ms. B"
+        "12": {
+            "lessons": {
+                "Computer Science": {
+                    "time": "16:00-17:30",
+                    "teacher": "Mr. I"
+                },
+                "Economics": {
+                    "time": "08:00-08:30",
+                    "teacher": "Mr. I"
+                }
+            }
         }
     },
     "Monday": {
-        "14:00-15:00": {
-            "grade": "9",
-            "subject": "Physics",
-            "teacher": "Mr. A"
+        "7": {
+            "lessons": {
+                "Science": {
+                    "time": "11:30-12:30",
+                    "teacher": "Ms. B"
+                },
+                "Geography": {
+                    "time": "15:30-17:00",
+                    "teacher": "Ms. F"
+                },
+                "English": {
+                    "time": "12:00-13:30",
+                    "teacher": "Ms. D"
+                },
+                "Art": {
+                    "time": "12:30-14:00",
+                    "teacher": "Ms. F"
+                }
+            }
         },
-        "10:30-12:00": {
-            "grade": "9",
-            "subject": "Biology",
-            "teacher": "Mr. C"
+        "8": {
+            "lessons": {
+                "Math": {
+                    "time": "15:00-16:30",
+                    "teacher": "Mr. A"
+                },
+                "Science": {
+                    "time": "15:30-16:30",
+                    "teacher": "Ms. B"
+                }
+            }
         },
-        "10:00-11:00": {
-            "grade": "12",
-            "subject": "Physics",
-            "teacher": "Mr. E"
+        "9": {
+            "lessons": {
+                "Math": {
+                    "time": "11:00-12:00",
+                    "teacher": "Mr. C"
+                }
+            }
+        },
+        "10": {
+            "lessons": {
+                "History": {
+                    "time": "15:00-16:00",
+                    "teacher": "Ms. H"
+                }
+            }
+        },
+        "12": {
+            "lessons": {
+                "Computer Science": {
+                    "time": "08:30-09:30",
+                    "teacher": "Mr. I"
+                }
+            }
         }
     },
-    "Wednesday": {
-        "13:30-15:00": {
-            "grade": "10",
-            "subject": "Physics",
-            "teacher": "Mr. A"
+    "Sunday": {
+        "7": {
+            "lessons": {
+                "History": {
+                    "time": "12:00-13:30",
+                    "teacher": "Ms. D"
+                }
+            }
         },
-        "15:00-16:30": {
-            "grade": "11",
-            "subject": "English",
-            "teacher": "Ms. D"
+        "8": {
+            "lessons": {
+                "English": {
+                    "time": "13:30-14:30",
+                    "teacher": "Mr. G"
+                },
+                "Physical Education": {
+                    "time": "08:00-09:30",
+                    "teacher": "Ms. H"
+                }
+            }
         },
-        "16:00-17:00": {
-            "grade": "11",
-            "subject": "Biology",
-            "teacher": "Mr. C"
+        "9": {
+            "lessons": {
+                "Math": {
+                    "time": "12:00-13:30",
+                    "teacher": "Mr. C"
+                }
+            }
         },
-        "09:30-10:00": {
-            "grade": "11",
-            "subject": "Math",
-            "teacher": "Mr. A"
+        "10": {
+            "lessons": {
+                "Math": {
+                    "time": "16:00-17:00",
+                    "teacher": "Mr. G"
+                },
+                "Physics": {
+                    "time": "15:00-15:30",
+                    "teacher": "Mr. E"
+                },
+                "History": {
+                    "time": "09:00-09:30",
+                    "teacher": "Ms. H"
+                }
+            }
         },
-        "11:00-11:30": {
-            "grade": "11",
-            "subject": "Math",
-            "teacher": "Mr. C"
+        "11": {
+            "lessons": {
+                "Math": {
+                    "time": "15:00-16:30",
+                    "teacher": "Mr. K"
+                }
+            }
+        },
+        "12": {
+            "lessons": {
+                "History": {
+                    "time": "08:30-10:00",
+                    "teacher": "Mr. M"
+                }
+            }
+        }
+    },
+    "Tuesday": {
+        "7": {
+            "lessons": {
+                "English": {
+                    "time": "08:30-10:00",
+                    "teacher": "Ms. D"
+                }
+            }
+        },
+        "8": {
+            "lessons": {
+                "Math": {
+                    "time": "13:00-14:00",
+                    "teacher": "Mr. A"
+                },
+                "Science": {
+                    "time": "10:30-12:00",
+                    "teacher": "Ms. B"
+                },
+                "History": {
+                    "time": "10:30-11:00",
+                    "teacher": "Ms. D"
+                },
+                "English": {
+                    "time": "11:30-13:00",
+                    "teacher": "Mr. G"
+                },
+                "Geography": {
+                    "time": "15:00-15:30",
+                    "teacher": "Ms. F"
+                }
+            }
+        },
+        "9": {
+            "lessons": {
+                "Chemistry": {
+                    "time": "16:30-17:30",
+                    "teacher": "Ms. B"
+                },
+                "Biology": {
+                    "time": "14:30-16:00",
+                    "teacher": "Mr. C"
+                },
+                "Math": {
+                    "time": "11:00-12:30",
+                    "teacher": "Mr. C"
+                },
+                "History": {
+                    "time": "14:00-15:30",
+                    "teacher": "Ms. H"
+                }
+            }
+        },
+        "10": {
+            "lessons": {
+                "Math": {
+                    "time": "13:00-14:30",
+                    "teacher": "Mr. G"
+                },
+                "Computer Science": {
+                    "time": "08:00-09:30",
+                    "teacher": "Mr. I"
+                },
+                "Art": {
+                    "time": "14:00-15:30",
+                    "teacher": "Ms. N"
+                }
+            }
+        },
+        "11": {
+            "lessons": {
+                "Math": {
+                    "time": "11:00-12:30",
+                    "teacher": "Mr. K"
+                },
+                "Physics": {
+                    "time": "08:00-09:30",
+                    "teacher": "Mr. K"
+                }
+            }
         }
     }
 }
